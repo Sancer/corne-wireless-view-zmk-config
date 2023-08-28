@@ -15,20 +15,20 @@
         default_layer {
             label = "Base";
             bindings = <
- &none       &kp Q           &kp W         &kp E             &kp R      &kp T          &kp Y            &kp U              &kp I            &kp O                    &kp P  &none
-&trans  &mt LGUI A  &mt LEFT_ALT S   &mt LCTRL D  &mt LEFT_SHIFT F      &kp G          &kp H     &mt RSHIFT J        &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none
- &none       &kp Z           &kp X         &kp C             &kp V      &kp B          &kp N            &kp M          &kp COMMA          &kp DOT                 &kp FSLH  &none
-                                    &mt LGUI ESC         &lt 1 TAB  &kp SPACE    &lt 4 ENTER  &lt 2 BACKSPACE  &mt RIGHT_ALT DEL
+ &none       &kp Q           &kp W         &kp E             &kp R        &kp T          &kp Y            &kp U              &kp I            &kp O                    &kp P  &none
+&trans  &mt LGUI A  &mt LEFT_ALT S   &mt LCTRL D  &mt LEFT_SHIFT F        &kp G          &kp H     &mt RSHIFT J        &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none
+ &none       &kp Z           &kp X         &kp C             &kp V        &kp B          &kp N            &kp M          &kp COMMA          &kp DOT                 &kp FSLH  &none
+                                    &mt LGUI ESC         &lt 1 TAB  &lt 5 SPACE    &lt 4 ENTER  &lt 2 BACKSPACE  &mt RIGHT_ALT DEL
             >;
         };
 
         lower_layer {
             label = "Lower";
             bindings = <
-&trans  &kp N1  &kp N2    &kp N3  &kp N4     &kp N5     &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
-&trans  &trans  &trans    &trans  &trans     &trans     &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans  &trans    &trans  &trans     &trans     &trans    &trans    &trans  &trans     &trans  &trans
-                        &kp LGUI  &trans  &kp SPACE    &kp RET     &mo 3  &kp RALT
+&trans  &kp N1  &kp N2    &kp N3  &kp N4     &kp N5          &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
+&trans  &trans  &trans    &trans  &trans     &trans    &kp CAPSLOCK  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &trans    &trans  &trans     &trans          &trans    &trans    &trans  &trans     &trans  &trans
+                        &kp LGUI  &trans  &kp SPACE         &kp RET     &mo 3  &kp RALT
             >;
         };
 
@@ -61,6 +61,17 @@
             >;
 
             label = "sym";
+        };
+
+        mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &kp SQT       &trans      &trans     &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans       &trans      &trans     &trans      &trans  &trans
+                        &trans  &trans  &trans        &trans       &trans      &trans
+            >;
+
+            label = "mouse";
         };
     };
 };
