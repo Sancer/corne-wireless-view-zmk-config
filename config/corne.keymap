@@ -55,7 +55,7 @@
         sym {
             bindings = <
 &trans  &kp LS(N1)  &kp RS(N2)  &kp RS(N3)  &kp RS(N4)  &kp RS(N5)    &kp RS(N6)     &kp RS(N7)     &kp RS(N8)    &kp RS(N9)    &kp RS(N0)  &trans
-&trans      &trans      &trans      &trans      &trans      &trans       &kp SQT  &kp RS(MINUS)  &kp RS(EQUAL)  &kp RS(LBKT)  &kp RS(RBKT)  &trans
+&trans      &trans      &trans      &trans      &trans      &trans        &trans  &kp RS(MINUS)  &kp RS(EQUAL)  &kp RS(LBKT)  &kp RS(RBKT)  &trans
 &trans      &trans      &trans      &trans      &trans      &trans      &kp BSLH         &trans         &trans        &trans        &trans  &trans
                                     &trans      &trans      &trans        &trans         &trans         &trans
             >;
