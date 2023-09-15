@@ -38,7 +38,7 @@
 &kp GRAVE  &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9             &trans       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0    &trans
 &trans     &trans  &kp KP_N4  &kp KP_N5  &mt LEFT_SHIFT KP_N6  &trans       &kp F6        &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT  &none
 &trans     &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3             &trans       &kp F12       &trans        &trans        &trans        &trans    &trans
-                              &kp LGUI   &lt 3 KP_N0           &kp SPACE    &kp RET       &trans        &kp RALT
+                              &trans     &lt 3 KP_N0           &kp SPACE    &kp RET       &trans        &trans
             >;
         };
 
